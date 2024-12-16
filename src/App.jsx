@@ -8,7 +8,7 @@ import About from './About'
 const cardBack =         
   { 
     id: 53,
-    src: "../src/assets/cards/BACK.svg",
+    src: "src/assets/cards/BACK.svg",
     name: "???",
     value: 0 
   };
