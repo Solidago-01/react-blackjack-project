@@ -123,6 +123,9 @@ function App() {
           </div>
         </div>
 
+        <div className="spacer">
+        <h3 className="vs">vs</h3>
+        </div>
 
         <div className="playSurface">
           <div className="currentHandGrid">
