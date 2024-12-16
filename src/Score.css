@@ -1,0 +1,18 @@
+article {
+    text-align: center;
+}
+
+.btnActive {
+    opacity: 100%;
+}
+
+.btnInactive {
+    opacity: 50%;
+}
+
+.infoText {
+    min-height: 2rem;
+    font-family: "Sancreek", serif;
+    font-weight: 400;
+    font-style: normal;
+}
