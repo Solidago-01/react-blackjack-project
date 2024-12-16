@@ -8,7 +8,7 @@ import About from './About'
 const cardBack =         
   { 
     id: 53,
-    src: "./react-blackjack-project/assets/cards/BACK.svg",
+    src: "./assets/cards/BACK.svg",
     name: "???",
     value: 0 
   };
