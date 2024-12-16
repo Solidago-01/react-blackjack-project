@@ -8,7 +8,7 @@ import About from './About'
 const cardBack =         
   { 
     id: 53,
-    src: "/public/assets/cards/BACK.svg",
+    src: "./react-blackjack-project/assets/cards/BACK.svg",
     name: "???",
     value: 0 
   };
@@ -119,7 +119,7 @@ function App() {
 
         <div className="playSurface">
           <div className="currentHandGrid">
-            {cardsInDealerHand.map((playingCard, id) => (<img className="currentHand" src={`https://solidago-01.github.io/react-blackjack-project/${playingCard.src}`} key={id} title={playingCard.name} alt={`${playingCard.name}`} />))}
+            {cardsInDealerHand.map((playingCard, id) => (<img className="currentHand" src={playingCard.src} key={id} title={playingCard.name} alt={`${playingCard.name}`} />))}
           </div>
         </div>
 
