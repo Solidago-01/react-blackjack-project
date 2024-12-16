@@ -40,6 +40,7 @@ button {
   margin: 1rem;
   border: 2px solid black;
   outline: 2px solid white;
+  background-color: white;
 }
 
 .playSurface {
